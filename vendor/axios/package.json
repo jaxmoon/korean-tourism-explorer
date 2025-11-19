@@ -1,0 +1,13 @@
+{
+  "name": "axios",
+  "version": "1.7.7-local",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "description": "Lightweight axios-compatible client for offline development",
+  "keywords": [
+    "axios",
+    "http",
+    "client"
+  ]
+}

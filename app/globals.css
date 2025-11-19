@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hide scrollbar but keep scrolling functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Hide Naver Maps logo and controls - only inside map container */
+[data-testid="naver-map"] [class*="logo"],
+[data-testid="naver-map"] [class*="scale"],
+[data-testid="naver-map"] [class*="map-data"],
+[data-testid="naver-map"] > div[style*="position: absolute"][style*="bottom"][style*="left"],
+[data-testid="naver-map"] > div[style*="position: absolute"][style*="bottom"][style*="right"] {
+  display: none !important;
+}

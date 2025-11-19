@@ -1,0 +1,37 @@
+import { Location } from './location';
+
+export const seedLocations: Location[] = [
+  {
+    contentId: '264353',
+    contentTypeId: 12,
+    title: '경복궁',
+    address: '서울특별시 종로구 사직로 161',
+    addr1: '서울특별시 종로구 사직로 161',
+    mapX: 126.977041,
+    mapY: 37.578606,
+    thumbnailUrl: 'https://example.com/gyeongbokgung.jpg',
+    areaCode: 1,
+    cat1: 'A01',
+    cat2: 'A0101',
+    cat3: 'A01010100',
+    tel: '02-3700-3900',
+    overview: '조선시대 대표 궁궐',
+    modifiedtime: '20231110120000',
+  },
+  {
+    contentId: '264555',
+    contentTypeId: 39,
+    title: '명동교자',
+    address: '서울특별시 중구 명동10길 29',
+    addr1: '서울특별시 중구 명동10길 29',
+    mapX: 126.985302,
+    mapY: 37.562405,
+    areaCode: 1,
+    cat1: 'A05',
+    cat2: 'A0502',
+    cat3: 'A05020100',
+    tel: '02-776-5348',
+    overview: '명동 대표 칼국수 맛집',
+    modifiedtime: '20231110130000',
+  },
+];
