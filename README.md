@@ -2,9 +2,11 @@
 
 한국관광공사 Tour API와 Naver Maps를 활용한 관광지 탐색 서비스
 
-## 데모 영상
+## 데모
 
-https://github.com/user-attachments/assets/demo.mp4
+<div align="center">
+  <img src="./public/demo.gif" alt="Tourism Explorer Demo" width="400">
+</div>
 
 > 💡 모바일 반응형 디자인, 지도 인터랙션, 검색 기능 등을 확인할 수 있습니다.
 
