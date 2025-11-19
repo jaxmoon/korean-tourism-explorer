@@ -2,6 +2,12 @@
 
 한국관광공사 Tour API와 Naver Maps를 활용한 관광지 탐색 서비스
 
+## 데모 영상
+
+https://github.com/user-attachments/assets/demo.mp4
+
+> 💡 모바일 반응형 디자인, 지도 인터랙션, 검색 기능 등을 확인할 수 있습니다.
+
 ## 주요 기능
 
 - 🗺️ **인터랙티브 지도**: Naver Maps 기반 실시간 지도
@@ -24,8 +30,8 @@
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/your-username/public-api.git
-cd public-api
+git clone https://github.com/jaxmoon/korean-tourism-explorer.git
+cd korean-tourism-explorer
 ```
 
 ### 2. 의존성 설치
